@@ -196,8 +196,6 @@ export default class FAB extends Component {
               }}
             >
               {React.cloneElement(iconTextComponent, { style: {
-                fontSize: 24,
-                color: iconTextColor,
               }})}
             </Animated.Text>
           </Touchable>
